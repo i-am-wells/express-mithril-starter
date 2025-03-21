@@ -2,7 +2,7 @@ import express from 'express'
 import cors from 'cors';
 import bodyParser from 'body-parser';
 
-import Database from './database';
+import Database from './database.js';
 const db = new Database();
 process.on('exit', (code) => {
     db.close();
