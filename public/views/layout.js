@@ -4,7 +4,7 @@ import '../style.css';
 export default {
   view: (vnode) => {
     return m('.container', [
-      m('h1.title', 'Hello'),
+      m('h1.title', 'Photo Party'),
       vnode.children
     ]);
   }
